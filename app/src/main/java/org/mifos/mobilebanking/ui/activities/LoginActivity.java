@@ -6,6 +6,7 @@ import android.support.design.widget.TextInputLayout;
 import android.support.v7.widget.AppCompatButton;
 import android.view.View;
 import android.widget.LinearLayout;
+import android.widget.TextView;
 import android.widget.Toast;
 
 import org.mifos.mobilebanking.R;
@@ -28,7 +29,7 @@ import butterknife.OnClick;
  */
 
 public class LoginActivity extends BaseActivity implements LoginView {
-
+private TextView textview;
     @Inject
     LoginPresenter loginPresenter;
 
